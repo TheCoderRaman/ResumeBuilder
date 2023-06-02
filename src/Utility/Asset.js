@@ -5,6 +5,6 @@
  * @param String path 
  * @returns String
  */
-export default function Asset(path){
+export default function asset(path){
     return require(`../Assets/`+path.trimStart("/"));
 }
