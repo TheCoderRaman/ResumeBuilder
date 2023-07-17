@@ -1,5 +1,6 @@
 {
-  "name": "my-react-app",
+  "name": "resume-builder",
+  "description": "React app for creating resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
