@@ -1,24 +1,39 @@
 /**
  * This module give us a single location for altering any
  * route in the entire application at any point of 
- * time in the future. if we wanted too! ^_*.
+ * time in the future.
  * 
  * @var const Object Web
  */
 export const Web = {
+    Error: {
+        name: "Error",
+        path: "*",
+        element: <></>
+    },
     Home: {
-        path: '/'
+        name: "Home",
+        path: '/',
+        element: <></>
     },
     AboutPage: {
-        path: 'about-us'
+        name: "About Us",
+        path: 'about-us',
+        element: <></>
     },
     Templates: {
-        path: 'templates'
+        name: "Templates",
+        path: 'templates',
+        element: <></>
     },
     GeneratedResume: {
-        path: 'template/resume'
+        name: "Generate Resume",
+        path: 'template/resume',
+        element: <></>
     },
     FillDetails: {
-        path: 'template/fill-details'
+        name: "Fill Details",
+        path: 'template/fill-details',
+        element: <></>
     }
 };
