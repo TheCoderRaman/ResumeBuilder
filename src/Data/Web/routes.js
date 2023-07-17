@@ -3,9 +3,9 @@
  * route in the entire application at any point of 
  * time in the future.
  * 
- * @var const Object Web
+ * @var const Object routes
  */
-export const Web = {
+export const routes = {
     Error: {
         name: "Error",
         path: "*",
@@ -18,22 +18,22 @@ export const Web = {
     },
     AboutPage: {
         name: "About Us",
-        path: 'about-us',
+        path: '/about-us',
         element: <></>
     },
     Templates: {
         name: "Templates",
-        path: 'templates',
+        path: '/templates',
         element: <></>
     },
     GeneratedResume: {
         name: "Generate Resume",
-        path: 'template/resume',
+        path: '/template/resume',
         element: <></>
     },
     FillDetails: {
         name: "Fill Details",
-        path: 'template/fill-details',
+        path: '/template/fill-details',
         element: <></>
     }
 };
