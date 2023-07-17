@@ -24,5 +24,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Project specific ignore
+/.vscode
 todo.md
 public/env.js
