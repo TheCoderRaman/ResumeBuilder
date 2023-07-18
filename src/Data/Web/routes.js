@@ -27,8 +27,8 @@ export const routes = {
         element: <></>
     },   
     GeneratedResume: {
-        name: "Generate Resume",
-        path: '/template/resume',
+        name: "Generated Resume",
+        path: '/template/generated-resume',
         element: <></>
     }
 };
