@@ -21,19 +21,14 @@ export const routes = {
         path: '/about-us',
         element: <></>
     },
-    Templates: {
-        name: "Templates",
-        path: '/templates',
-        element: <></>
-    },
-    GeneratedResume: {
-        name: "Generate Resume",
-        path: '/template/resume',
-        element: <></>
-    },
     FillDetails: {
         name: "Fill Details",
         path: '/template/fill-details',
+        element: <></>
+    },   
+    GeneratedResume: {
+        name: "Generate Resume",
+        path: '/template/resume',
         element: <></>
     }
 };
