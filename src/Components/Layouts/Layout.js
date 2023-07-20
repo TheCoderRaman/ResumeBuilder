@@ -11,7 +11,7 @@ function Layout({ children }) {
       {/* childrens that is body of the pages */}
       {children}
 
-      {/* Here we can add page footer */}ī
+      {/* Here we can add page footer */}
       {/* But... for now, we really does not need it */}
     </div>
   );
