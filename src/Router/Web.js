@@ -1,15 +1,16 @@
 import { 
   useState, 
   useEffect 
-} from "react";
+} from 'react';
 
-import { Helmet } from "react-helmet";
-import { useSelector } from "react-redux";
-import { routeName } from "./../Utils/route";
-import { routes } from "./../Data/Web/routes";
-import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
+import { Helmet } from 'react-helmet';
+import { useSelector } from 'react-redux';
+import { routeName } from './../Utils/route';
+import { routes } from './../Data/Web/routes';
+import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
+import Header from './../Components/Header/Header';
 
 export default function Web(props) {
   const { t } = useTranslation();
@@ -32,6 +33,8 @@ export default function Web(props) {
         {/* Here we handle any changes to the document head. */}
         <title>{t(settings.app.name)+" | "+t(route)}</title>
       </Helmet>
+
+      <Header />
 
       {/* Children */}
       {props.children}
