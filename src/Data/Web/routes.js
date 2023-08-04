@@ -25,17 +25,17 @@ export const routes = {
         path: '/',
         element: <Home />
     },
-    AboutPage: {
-        public: true,
-        name: "About Us",
-        path: '/about-us',
-        element: <AboutUs />
-    },
     MyResume: {
         public: true,
         name: "My Resume",
         path: '/my-resume',
         element: <MyResume />
+    },
+    AboutPage: {
+        public: true,
+        name: "About Us",
+        path: '/about-us',
+        element: <AboutUs />
     },
     FillDetails: {
         public: false,
