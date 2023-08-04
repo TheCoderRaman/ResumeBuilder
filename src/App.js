@@ -1,11 +1,16 @@
-import Web from "./Router/Web";
-import { BrowserRouter } from "react-router-dom";
+import Web from './Router/Web';
+import ThemeProvider from './Providers/ThemeProvider';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Web />
-    </BrowserRouter>
+    <div 
+      style={{ minWidth: "220px" }}
+      className="app-resume-builder" 
+    >
+      <ThemeProvider>
+        <Web />
+      </ThemeProvider>
+    </div>
   );
 };
 
