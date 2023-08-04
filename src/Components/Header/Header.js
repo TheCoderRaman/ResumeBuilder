@@ -2,11 +2,12 @@ import './Header.css';
 import * as React from 'react';
 import Logo from '../Logos/Logo';
 import Box from '@mui/material/Box';
-import Switch from './../Themes/Switch';
 import MobileHeader from './MobileHeader';
 import Drawer from '@mui/material/Drawer';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
+import ThemeSwitch from './../Themes/Switch';
+import LocaleSwitch from './../Locales/Switch';
 import MenuIcon from '@mui/icons-material/Menu';
 import { routes } from './../../Data/Web/routes';
 import { Link, NavLink } from 'react-router-dom';
@@ -77,8 +78,9 @@ function Header() {
                 );
               })}
 
-              <Switch />
             </Box>
+            <ThemeSwitch />
+            <LocaleSwitch />
           </Toolbar>
         </AppBar>
         <Box component="nav">

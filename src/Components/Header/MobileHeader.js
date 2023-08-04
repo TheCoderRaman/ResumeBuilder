@@ -2,8 +2,9 @@ import React from 'react';
 import Logo from '../Logos/Logo';
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
-import Switch from './../Themes/Switch';
 import Divider from "@mui/material/Divider";
+import ThemeSwitch from './../Themes/Switch';
+import LocaleSwitch from './../Locales/Switch';
 import { routes } from './../../Data/Web/routes';
 import { Link, NavLink } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
@@ -49,9 +50,9 @@ function MobileHeader({
                         </NavLink>
                     );
                 })}
-                
-                <Switch />
             </List>
+            
+            <ThemeSwitch /> <LocaleSwitch />
         </Box>
     );
 }
