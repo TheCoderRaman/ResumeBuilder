@@ -1,9 +1,9 @@
-import Home from "./../../Pages/Home";
-import Error from "./../../Pages/Error";
-import AboutUs from "./../../Pages/AboutUs";
-import MyResume from "./../../Pages/MyResume";
-import FillDetails from "./../../Pages/FillDetails";
-import GeneratedResume from "./../../Pages/GeneratedResume";
+import Home from "./../../Pages/Home/Home";
+import Error from "./../../Pages/Error/Error";
+import AboutUs from "./../../Pages/AboutUs/AboutUs";
+import MyResume from "./../../Pages/MyResume/MyResume";
+import FillDetails from "./../../Pages/FillDetails/FillDetails";
+import GeneratedResume from "./../../Pages/GeneratedResume/GeneratedResume";
 
 /**
  * This module give us a single location for altering any
