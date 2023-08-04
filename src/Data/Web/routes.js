@@ -14,31 +14,37 @@ import GeneratedResume from "./../../Pages/GeneratedResume/GeneratedResume";
  */
 export const routes = {
     Error: {
+        public: false,
         name: "Error",
         path: "*",
         element: <Error />
     },
     Home: {
+        public: true,
         name: "Home",
         path: '/',
         element: <Home />
     },
     AboutPage: {
+        public: true,
         name: "About Us",
         path: '/about-us',
         element: <AboutUs />
     },
     MyResume: {
+        public: true,
         name: "My Resume",
         path: '/my-resume',
         element: <MyResume />
     },
     FillDetails: {
+        public: false,
         name: "Fill Details",
         path: '/template/fill-details',
         element: <FillDetails />
     },   
     GeneratedResume: {
+        public: false,
         name: "Generated Resume",
         path: '/template/generated-resume',
         element: <GeneratedResume />
