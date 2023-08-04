@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import Switch from './../Themes/Switch';
 import Divider from "@mui/material/Divider";
-import { headerLinks } from './../../Data/links';
+import { routes } from './../../Data/Web/routes';
 import { Link, NavLink } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 
@@ -33,18 +33,23 @@ function MobileHeader({
                     flexDirection: "column",
                 }
             }>
-                {Object.entries(headerLinks).map(([name, value], index) => {
+                {Object.entries(routes).map(([name, value], index) => {
+                    if(true !== value?.public){
+                        return;
+                    }
+
                     return (
                         <NavLink
-                            key={`DesktopLink#${name}::${index}`}
                             color="inherit"
-                            to={value?.link}
+                            to={value?.path}
                             className="nav-link"
+                            key={`DesktopLink#${name}::${index}`}
                         >
                             {value?.name}
                         </NavLink>
                     );
                 })}
+                
                 <Switch />
             </List>
         </Box>
