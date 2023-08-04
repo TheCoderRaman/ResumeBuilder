@@ -1,6 +1,7 @@
 import Home from "./../../Pages/Home";
 import Error from "./../../Pages/Error";
 import AboutUs from "./../../Pages/AboutUs";
+import MyResume from "./../../Pages/MyResume";
 import FillDetails from "./../../Pages/FillDetails";
 import GeneratedResume from "./../../Pages/GeneratedResume";
 
@@ -26,6 +27,11 @@ export const routes = {
         name: "About Us",
         path: '/about-us',
         element: <AboutUs />
+    },
+    MyResume: {
+        name: "My Resume",
+        path: '/my-resume',
+        element: <MyResume />
     },
     FillDetails: {
         name: "Fill Details",
