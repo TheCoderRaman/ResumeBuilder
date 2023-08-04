@@ -1,17 +1,17 @@
 import './Header.css';
-import * as React from "react";
+import * as React from 'react';
 import Logo from '../Logos/Logo';
 import Box from "@mui/material/Box";
 import Switch from './../Themes/Switch';
 import MobileHeader from './MobileHeader';
-import Drawer from "@mui/material/Drawer";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import MenuIcon from "@mui/icons-material/Menu";
+import Drawer from '@mui/material/Drawer';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import MenuIcon from '@mui/icons-material/Menu';
 import { headerLinks } from './../../Data/links';
-import { Link, NavLink } from "react-router-dom";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
+import { Link, NavLink } from 'react-router-dom';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
 
 function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
