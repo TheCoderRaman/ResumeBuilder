@@ -1,0 +1,26 @@
+.details-user-name {
+  font-size: 4vw;
+  font-weight: 600;
+}
+
+.details-designation {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.details-name-container {
+  display: flex;
+  margin-left: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+  .details-name {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .details-name-container {
+    margin-left: 15px;
+  }
+}
