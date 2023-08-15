@@ -110,6 +110,20 @@ export const hi = {
     "You do not have any resume yet. Make one to view it here.": "आपके पास अभी तक कोई रिज्यूमे नहीं है। इसे यहां देखने के लिए एक बनाएं।",
 
     /**
+     * Template Card
+     *
+     * @name TemplateCard.js
+     * @file src://Pages/Home/Components/Cards/TemplateCard.js
+     */
+    "Select": "का चयन करें",
+    "Template One": "टेम्पलेट एक",
+    "Template Two": "टेम्पलेट दो",
+    "Template Six": "टेम्पलेट छह",
+    "Template Four": "टेम्पलेट चार",
+    "Template Five": "टेम्पलेट पाँच",
+    "Template Three": "टेम्पलेट तीन",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
