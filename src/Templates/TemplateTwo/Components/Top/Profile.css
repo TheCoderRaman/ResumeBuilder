@@ -1,0 +1,18 @@
+.profile-image-container {
+  width: 90px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image-container .profile-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .profile-image-container {
+    width: 30%;
+  }
+}
