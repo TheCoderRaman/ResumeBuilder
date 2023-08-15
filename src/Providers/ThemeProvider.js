@@ -1,8 +1,8 @@
 import React, {
-    useMemo, 
-    useState, 
-    useEffect, 
-    createContext, 
+    useMemo,
+    useState,
+    useEffect,
+    createContext,
     useLayoutEffect
 } from 'react';
 
@@ -10,8 +10,9 @@ import {
     ThemeProvider as MuiThemeProvider
 } from '@mui/material/styles';
 
-import { themes as designs } from '../Data/themes';
-import { getDesignToken } from '../Utils/getDesignToken';
+import { themes as designs } from './../Data/themes';
+import { getDesignToken } from './../Utils/getDesignToken';
+import { localStorage as ls } from './../Modules/LocalStorageSlim';
 
 export const ThemeContext = createContext({
     theme: designs.mode, setTheme: () => { }
@@ -19,8 +20,8 @@ export const ThemeContext = createContext({
 
 function ThemeProvider(props) {
     const currentMode = (
-        null === localStorage.getItem("theme")
-        ? designs.mode : localStorage.getItem("theme")
+        null === ls.get("theme")
+        ? designs.mode : ls.get("theme")
     );
 
     const [mode, setMode] = useState(currentMode);
@@ -32,7 +33,7 @@ function ThemeProvider(props) {
     const theme = useMemo(themeHandler, [mode]);
 
     useEffect(() => {
-        localStorage.setItem("theme",mode);
+        ls.set("theme",mode);
     },[mode]);
 
     useLayoutEffect(() => {
