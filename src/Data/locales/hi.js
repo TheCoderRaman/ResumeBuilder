@@ -182,4 +182,26 @@ export const hi = {
     "404": "404",
     "Back Home": "घर वापस",
     "The page you\'re looking for doesn\'t exist.": "आप जिस पृष्ठ की तलाश कर रहे हैं वह मौजूद नहीं है.",
+    
+    /**
+     * Mixed
+     *
+     * @name none
+     * @file Overall exists in multiple files
+     */
+    "Home": "घर",
+    "Error": "भूल",
+    "About Us": "हमारे बारे में",
+    "My Resume": "मेरा रिज्यूमे",
+    "Fill Details": "विवरण भरें",
+    "Resume Builder": "रिज्यूमे बिल्डर",
+    "Generate Resume": "रिज्यूमे जनरेट करें",
+    ":field is invalid": ":field अमान्य है",
+    ":field is a required field": ":field एक आवश्यक फ़ील्ड है",
+    ":field must be a valid email": ":field एक मान्य ईमेल होना चाहिए",
+    ":field must be at most :max characters": ":field अधिक से अधिक :max वर्ण होना चाहिए",
+    ":field must be at least :min characters": ":field कम से कम :min वर्ण होना चाहिए",
+    ":field must contain :number amount of symbols or more.": ":field इसमें शामिल होना चाहिए: प्रतीकों की संख्या या अधिक।",
+    ":field must contain :number amount of numbers or more.": ":field इसमें शामिल होना चाहिए: संख्याओं की संख्या राशि या अधिक।",
+    ":field must contain :number amount of lowercase letters or more.": ":field इसमें शामिल होना चाहिए: निचले अक्षरों की संख्या या अधिक।",
 };
