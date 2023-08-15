@@ -125,6 +125,19 @@ export const en = {
     "Template Three": "Template Three",
 
     /**
+     * Personal Info
+     *
+     * @name PersonalInfo.js
+     * @file src://Pages/FillDetails/Components/Tabs/PersonalInfo.js
+     */
+    "Save": "Save",
+    "Update Image": "Update Image",
+    "Profile Image": "Profile Image",
+    "Change Profile Photo": "Change Profile Photo",
+    "Please fill out the form!": "Please fill out the form!",
+    "Please select a profile image": "Please select a profile image",
+    
+    /**
      * About Us
      *
      * @name AboutUs.js
