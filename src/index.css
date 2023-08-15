@@ -1,6 +1,21 @@
 @tailwind base;
+@layer base {
+  img {
+    @apply inline-block;
+  }
+}
 @tailwind components;
 @tailwind utilities;
+
+/**
+ * Texts are shifted down
+ *
+ * @context Html2Canvas
+ * @type fix
+*/
+body > div:last-child img {
+  display: inline-block;
+}
 
 body {
   width: 100%;
