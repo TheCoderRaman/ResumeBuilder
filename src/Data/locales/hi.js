@@ -124,6 +124,19 @@ export const hi = {
     "Template Three": "टेम्पलेट तीन",
 
     /**
+     * Personal Info
+     *
+     * @name PersonalInfo.js
+     * @file src://Pages/FillDetails/Components/Tabs/PersonalInfo.js
+     */
+    "Save": "रक्षा कर",
+    "Update Image": "छवि अद्यतन करें",
+    "Profile Image": "प्रोफाइल इमेज",
+    "Change Profile Photo": "प्रोफ़ाइल फ़ोटो बदलें",
+    "Please fill out the form!": "कृपया फॉर्म भरें।!",
+    "Please select a profile image": "कृपया प्रोफ़ाइल छवि का चयन करें",
+    
+    /**
      * About Us
      *
      * @name AboutUs.js
