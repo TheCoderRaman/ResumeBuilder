@@ -82,6 +82,25 @@ export const en = {
     "Showing step {{step}} of {{steps}} Steps": "Showing step {{step}} of {{steps}} Steps",
 
     /**
+     * My Resume
+     *
+     * @name MyResume.js
+     * @file src://Pages/MyResume/MyResume.js
+     */
+    "Update": "Update",
+    "Delete": "Delete",
+    "Download": "Download",
+    "Generate": "Generate",
+    "My Resumes": "My Resumes",
+    "Generating PDF": "Generating PDF",
+    "Something Went Wrong!": "Something Went Wrong!",
+    "Resume Successfully Deleted": "Resume Successfully Deleted",
+    "Resume Successfully Generated": "Resume Successfully Generated",
+    "Select a Template to Get Started": "Select a Template to Get Started",
+    "Please update your resume on next page!": "Please update your resume on next page!",
+    "Please generate your custom resume on next page!": "Please generate your custom resume on next page!",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
