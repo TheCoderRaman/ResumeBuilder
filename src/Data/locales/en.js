@@ -111,6 +111,20 @@ export const en = {
     "You do not have any resume yet. Make one to view it here.": "You do not have any resume yet. Make one to view it here.",
 
     /**
+     * Template Card
+     *
+     * @name TemplateCard.js
+     * @file src://Pages/Home/Components/Cards/TemplateCard.js
+     */
+    "Select": "Select",
+    "Template One": "Template One",
+    "Template Two": "Template Two",
+    "Template Six": "Template Six",
+    "Template Four": "Template Four",
+    "Template Five": "Template Five",
+    "Template Three": "Template Three",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
