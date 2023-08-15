@@ -172,4 +172,14 @@ export const hi = {
     "Key Skills": "मुख्य कौशल",
     "Personal Info": "व्यक्तिगत जानकारी",
     "Work Experience": "कार्य अनुभव",
+
+    /**
+     * Error
+     *
+     * @name Error.js
+     * @file src://Pages/Error/Error.js
+     */
+    "404": "404",
+    "Back Home": "घर वापस",
+    "The page you\'re looking for doesn\'t exist.": "आप जिस पृष्ठ की तलाश कर रहे हैं वह मौजूद नहीं है.",
 };
