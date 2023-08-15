@@ -183,4 +183,26 @@ export const en = {
     "404": "404",
     "Back Home": "Back Home",
     "The page you\'re looking for doesn\'t exist.": "The page you\'re looking for doesn\'t exist.",
+
+    /**
+     * Mixed
+     *
+     * @name none
+     * @file Overall exists in multiple files
+     */
+    "Home": "Home",
+    "Error": "Error",
+    "About Us": "About Us",
+    "My Resume": "My Resume",
+    "Fill Details": "Fill Details",
+    "Resume Builder": "Resume Builder",
+    "Generate Resume": "Generate Resume",
+    ":field is invalid": ":field is invalid",
+    ":field is a required field": ":field is a required field",
+    ":field must be a valid email": ":field must be a valid email",
+    ":field must be at most :max characters": ":field must be at most :max characters",
+    ":field must be at least :min characters": ":field must be at least :min characters",
+    ":field must contain :number amount of symbols or more.": ":field must contain :number amount of symbols or more.",
+    ":field must contain :number amount of numbers or more.": ":field must contain :number amount of numbers or more.",
+    ":field must contain :number amount of lowercase letters or more.": ":field must contain :number amount of lowercase letters or more.",
 };
