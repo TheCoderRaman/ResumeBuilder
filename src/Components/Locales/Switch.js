@@ -12,7 +12,7 @@ import InputLabel from '@mui/material/InputLabel';
 import ReactCountryFlag from "react-country-flag";
 import FormControl from '@mui/material/FormControl';
 import DialogTitle from '@mui/material/DialogTitle';
-import { translation } from '../../Data/translation';
+import { translation } from './../../Data/translation';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
