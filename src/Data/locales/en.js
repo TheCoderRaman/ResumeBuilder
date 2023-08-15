@@ -27,6 +27,20 @@ export const en = {
     "Select a Template to Get Started": "Select a Template to Get Started",
 
     /**
+     * Generate Resume
+     *
+     * @name GenerateResume.js
+     * @file src://Pages/GenerateResume/GenerateResume.js
+     */
+    "File Name": "File Name",
+    "Resume Preview": "Resume Preview",
+    "Generating PDF": "Generating PDF",
+    "Generated Resume": "Generated Resume",
+    "Something Went Wrong!": "Something Went Wrong!",
+    "Resume Successfully Generated": "Resume Successfully Generated",
+    "The shorter and the plainer the better.": "The shorter and the plainer the better.",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
