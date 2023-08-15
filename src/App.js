@@ -3,9 +3,9 @@ import ThemeProvider from './Providers/ThemeProvider';
 
 const App = () => {
   return (
-    <div 
-      style={{ minWidth: "220px" }}
-      className="app-resume-builder" 
+    <div
+      style={{ minWidth: "100vh" }}
+      className="app-resume-builder"
     >
       <ThemeProvider>
         <Web />
