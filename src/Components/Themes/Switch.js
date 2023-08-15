@@ -3,7 +3,7 @@ import React, {
 } from 'react';
 
 import { SwitchStyled } from './Styles/SwitchStyled';
-import { ThemeContext } from '../../Providers/ThemeProvider';
+import { ThemeContext } from './../../Providers/ThemeProvider';
 
 function Switch() {
     const themeContext = useContext(ThemeContext);
