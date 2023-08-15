@@ -136,7 +136,17 @@ export const en = {
     "Change Profile Photo": "Change Profile Photo",
     "Please fill out the form!": "Please fill out the form!",
     "Please select a profile image": "Please select a profile image",
-    
+
+    /**
+     * Work Experience
+     *
+     * @name WorkExperience.js
+     * @file src://Pages/FillDetails/Components/Tabs/WorkExperience.js
+     */
+    "Add": "Add",
+    "Remove": "Remove",
+    "#{{id}} Experience": "#{{id}} Experience",
+
     /**
      * About Us
      *
