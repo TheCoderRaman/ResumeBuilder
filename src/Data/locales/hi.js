@@ -26,6 +26,20 @@ export const hi = {
     "Select a Template to Get Started": "आरंभ करने के लिए एक टेम्पलेट का चयन करें",
 
     /**
+     * Generate Resume
+     *
+     * @name GenerateResume.js
+     * @file src://Pages/GenerateResume/GenerateResume.js
+     */
+    "File Name": "फ़ाइल का नाम",
+    "Resume Preview": "पूर्वावलोकन फिर से शुरू करें",
+    "Generating PDF": "PDF बनाना",
+    "Generated Resume": "जनरेट किया गया रिज्यूमे",
+    "Something Went Wrong!": "कुछ गलत हो गया!",
+    "Resume Successfully Generated": "सफलतापूर्वक जनरेट किया गया पुन: प्रारंभ",
+    "The shorter and the plainer the better.": "जितना छोटा और सादा बेहतर होगा।.",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
