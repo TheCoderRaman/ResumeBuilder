@@ -79,6 +79,25 @@ export const hi = {
     "#{{id}} Education": "#{{id}} शिक्षा",
     "Education Details": "शिक्षा का विवरण",
     "Showing step {{step}} of {{steps}} Steps": "{{steps}} चरणों का चरण {{step}} दिखाना",
+    
+    /**
+     * My Resume
+     *
+     * @name MyResume.js
+     * @file src://Pages/MyResume/MyResume.js
+     */
+    "Update": "आधुनिकीकरणअ",
+    "Delete": "मिटाना",
+    "Download": "डाउनलोड",
+    "Generate": "बनाना",
+    "My Resumes": "मेरा रिज्यूमे",
+    "Generating PDF": "PDF बनाना",
+    "Something Went Wrong!": "कुछ गलत हो गया!",
+    "Resume Successfully Deleted": "सफलतापूर्वक हटाए गए पुनरारंभ को पुनः प्रारंभ करें",
+    "Resume Successfully Generated": "सफलतापूर्वक जनरेट किया गया पुन: प्रारंभ",
+    "Select a Template to Get Started": "प्रारंभ करने के लिए टेम्पलेट का चयन करें",
+    "Please update your resume on next page!": "कृपया अगले पृष्ठ पर अपना रिज्यूमे अपडेट करें!",
+    "Please generate your custom resume on next page!": "कृपया अगले पृष्ठ पर अपना कस्टम रिज्यूमे जनरेट करें!",
 
     /**
      * About Us
