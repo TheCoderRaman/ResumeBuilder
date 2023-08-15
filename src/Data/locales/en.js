@@ -51,6 +51,37 @@ export const en = {
     "You do not have filled any resume yet. Fill one to generate it here.": "You do not have filled any resume yet. Fill one to generate it here.",
 
     /**
+     * Fill Details
+     *
+     * @name FillDetails.js
+     * @file src://Pages/FillDetails/FillDetails.js
+     */
+    "Next": "Next",
+    "City": "City",
+    "Type": "Type",
+    "State": "State",
+    "Email": "Email",
+    "Skill": "Skill",
+    "Mobile": "Mobile",
+    "Degree": "Degree",
+    "Address": "Address",
+    "Complete": "Complete",
+    "Previous": "Previous",
+    "End Year": "End Year",
+    "Job Title": "Job Title",
+    "Objective": "Objective",
+    "Last Name": "Last Name",
+    "University": "University",
+    "Start Year": "Start Year",
+    "First Name": "First Name",
+    "Postal Code": "Postal Code",
+    "#{{id}} Skill": "#{{id}} Skill",
+    "Organization Name": "Organization Name",
+    "#{{id}} Education": "#{{id}} Education",
+    "Education Details": "Education Details",
+    "Showing step {{step}} of {{steps}} Steps": "Showing step {{step}} of {{steps}} Steps",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
