@@ -100,6 +100,16 @@ export const hi = {
     "Please generate your custom resume on next page!": "कृपया अगले पृष्ठ पर अपना कस्टम रिज्यूमे जनरेट करें!",
 
     /**
+     * Not Found
+     *
+     * @name NotFound.js
+     * @file src://Pages/MyResume/Components/Errors/NotFound.js
+     */
+    "Home": "Home",
+    "got back to Home": "घर वापस आ गए",
+    "You do not have any resume yet. Make one to view it here.": "आपके पास अभी तक कोई रिज्यूमे नहीं है। इसे यहां देखने के लिए एक बनाएं।",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
