@@ -1,6 +1,6 @@
-import { 
-  useState, 
-  useEffect 
+import {
+  useState,
+  useEffect
 } from 'react';
 
 import { Helmet } from 'react-helmet';
@@ -44,17 +44,17 @@ export default function Web(props) {
       <Routes>
         {Object.entries(routes).map(([route,props],index) => {
           return (<Route
-            // We can also destructure 
+            // We can also destructure
             // props here like this {...props}
-            // But for better controll over route we 
+            // But for better controll over route we
             // handle it manually for providing fallbacks.
             key={index}
             exact={true}
             // Assign route
-            path={props?.path ?? null} 
-            // Assign element 
+            path={props?.path ?? null}
+            // Assign element
             element={props?.element ?? (
-              // Fall back element incase our route does not 
+              // Fall back element incase our route does not
               // have any valid element specified in web routes.
               <>{t(route)}</>
             )}
