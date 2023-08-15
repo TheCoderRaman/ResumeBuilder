@@ -161,4 +161,16 @@ export const en = {
     "Our Resume Builder is designed to simplify the resume creation process, offering a user-friendly interface and a wide range of customizable templates.": "Our Resume Builder is designed to simplify the resume creation process, offering a user-friendly interface and a wide range of customizable templates.",
     "We believe that a well-crafted resume can make a significant difference in your job search, helping you stand out from the competition and land your dream job.": "We believe that a well-crafted resume can make a significant difference in your job search, helping you stand out from the competition and land your dream job.",
     "Whether you\'re a recent graduate, a seasoned professional, or making a career transition, our platform provides the tools and resources you need to create a compelling resume that highlights your skills, experience, and achievements.": "Whether you\'re a recent graduate, a seasoned professional, or making a career transition, our platform provides the tools and resources you need to create a compelling resume that highlights your skills, experience, and achievements.",
+
+    /**
+     * Templates
+     *
+     * @name NotAnyParticularFile
+     * @file Overall exists in folder src://Templates
+     */
+    "Education": "Education",
+    "Objective": "Objective",
+    "Key Skills": "Key Skills",
+    "Personal Info": "Personal Info",
+    "Work Experience": "Work Experience",
 };
