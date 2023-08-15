@@ -41,6 +41,16 @@ export const en = {
     "The shorter and the plainer the better.": "The shorter and the plainer the better.",
 
     /**
+     * Not Found
+     *
+     * @name NotFound.js
+     * @file src://Pages/GenerateResume/Components/Errors/NotFound.js
+     */
+    "Home": "Home",
+    "got back to Home": "got back to Home",
+    "You do not have filled any resume yet. Fill one to generate it here.": "You do not have filled any resume yet. Fill one to generate it here.",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
