@@ -137,7 +137,7 @@ function Share({
     return React.cloneElement(
         sharer[value].button,
         {...{
-            key:`${index}:${value}`, 
+            key:`${index}:${value}`,
             url: url,quote: quote,hashtag: hashtag
         },children: (
             React.cloneElement(sharer[value].icon,
