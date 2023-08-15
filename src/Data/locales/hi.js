@@ -135,7 +135,17 @@ export const hi = {
     "Change Profile Photo": "प्रोफ़ाइल फ़ोटो बदलें",
     "Please fill out the form!": "कृपया फॉर्म भरें।!",
     "Please select a profile image": "कृपया प्रोफ़ाइल छवि का चयन करें",
-    
+
+    /**
+     * Work Experience
+     *
+     * @name WorkExperience.js
+     * @file src://Pages/FillDetails/Components/Tabs/WorkExperience.js
+     */
+    "Add": "जोड़ना",
+    "Remove": "हटाना",
+    "#{{id}} Experience": "#{{id}} अनुभव",
+
     /**
      * About Us
      *
