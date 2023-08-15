@@ -101,6 +101,16 @@ export const en = {
     "Please generate your custom resume on next page!": "Please generate your custom resume on next page!",
 
     /**
+     * Not Found
+     *
+     * @name NotFound.js
+     * @file src://Pages/MyResume/Components/Errors/NotFound.js
+     */
+    "Home": "Home",
+    "got back to Home": "got back to Home",
+    "You do not have any resume yet. Make one to view it here.": "You do not have any resume yet. Make one to view it here.",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
