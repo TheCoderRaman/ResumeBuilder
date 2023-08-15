@@ -15,7 +15,17 @@ export const en = {
     "Change": "Change",
     "Cancel": "Cancel",
     "Select Your Language": "Select Your Language",
-    
+
+    /**
+     * Home
+     *
+     * @name Home.js
+     * @file src://Pages/Home/Home.js
+     */
+    "Home": "Home",
+    "Templates": "Templates",
+    "Select a Template to Get Started": "Select a Template to Get Started",
+
     /**
      * About Us
      *
