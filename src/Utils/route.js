@@ -1,4 +1,4 @@
-import { routes } from '../Data/Web/routes';
+import { routes } from './../Data/Web/routes';
 
 /**
  * Get specified route path by identifier.
