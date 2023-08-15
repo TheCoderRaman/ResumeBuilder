@@ -173,4 +173,14 @@ export const en = {
     "Key Skills": "Key Skills",
     "Personal Info": "Personal Info",
     "Work Experience": "Work Experience",
+
+    /**
+     * Error
+     *
+     * @name Error.js
+     * @file src://Pages/Error/Error.js
+     */
+    "404": "404",
+    "Back Home": "Back Home",
+    "The page you\'re looking for doesn\'t exist.": "The page you\'re looking for doesn\'t exist.",
 };
