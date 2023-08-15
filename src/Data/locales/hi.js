@@ -50,6 +50,37 @@ export const hi = {
     "You do not have filled any resume yet. Fill one to generate it here.": "आपने अभी तक कोई रिज्यूमे नहीं भरा है। इसे यहां उत्पन्न करने के लिए एक भरें।",
 
     /**
+     * Fill Details
+     *
+     * @name FillDetails.js
+     * @file src://Pages/FillDetails/FillDetails.js
+     */
+    "Next": "अगला",
+    "City": "शहर",
+    "Type": "प्रकार",
+    "State": "राज्य",
+    "Email": "ईमेल",
+    "Skill": "निपुणता",
+    "Mobile": "मोबाइल",
+    "Degree": "उपाधि",
+    "Address": "पता",
+    "Complete": "पूरा",
+    "Previous": "पिछला",
+    "End Year": "अंतिम वर्ष",
+    "Job Title": "पद का नाम",
+    "Objective": "उद्देश्य",
+    "Last Name": "कुलनाम",
+    "University": "विश्वविद्यालय",
+    "Start Year": "प्रारंभ वर्ष",
+    "First Name": "प्रथम नाम",
+    "Postal Code": "पोस्टल कोड",
+    "#{{id}} Skill": "#{{id}} निपुणता",
+    "Organization Name": "संगठन का नाम",
+    "#{{id}} Education": "#{{id}} शिक्षा",
+    "Education Details": "शिक्षा का विवरण",
+    "Showing step {{step}} of {{steps}} Steps": "{{steps}} चरणों का चरण {{step}} दिखाना",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
