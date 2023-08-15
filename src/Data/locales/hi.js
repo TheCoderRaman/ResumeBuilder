@@ -40,6 +40,16 @@ export const hi = {
     "The shorter and the plainer the better.": "जितना छोटा और सादा बेहतर होगा।.",
 
     /**
+     * Not Found
+     *
+     * @name NotFound.js
+     * @file src://Pages/GenerateResume/Components/Errors/NotFound.js
+     */
+    "Home": "घर",
+    "got back to Home": "घर वापस आ गए",
+    "You do not have filled any resume yet. Fill one to generate it here.": "आपने अभी तक कोई रिज्यूमे नहीं भरा है। इसे यहां उत्पन्न करने के लिए एक भरें।",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
