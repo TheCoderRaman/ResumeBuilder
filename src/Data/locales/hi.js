@@ -17,6 +17,15 @@ export const hi = {
     "Select Your Language": "अपनी भाषा का चयन करें",
 
     /**
+     * Home
+     *
+     * @name Home.js
+     * @file src://Pages/Home/Home.js
+     */
+    "Templates": "टेम्पलेट्स",
+    "Select a Template to Get Started": "आरंभ करने के लिए एक टेम्पलेट का चयन करें",
+
+    /**
      * About Us
      *
      * @name AboutUs.js
