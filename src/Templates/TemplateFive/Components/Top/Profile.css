@@ -1,0 +1,19 @@
+.profile-image-container {
+  width: 90px;
+  border-radius: 50%;
+  background-color: rgb(193, 193, 193);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profile-image-container .profile-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .profile-image-container {
+    width: 30%;
+  }
+}
