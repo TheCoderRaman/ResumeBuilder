@@ -1,4 +1,5 @@
 {
+  "homepage": "/",
   "name": "resume-builder",
   "description": "React app for creating resume",
   "version": "1.0.0",
