@@ -1,6 +1,6 @@
 # 📄 Resume Builder
 <p align="center">
-  <a title="license" href="./LICENSE"><img src="https://img.shields.io/github/license/TheCoderRaman/resume-builder" alt="license"></a>
+  <a title="license" href="./LICENSE"><img src="https://img.shields.io/github/license/TheCoderRaman/ResumeBuilder" alt="license"></a>
   <a title="react" href="https://react.dev"><img src="https://img.shields.io/badge/logo-react-blue?logo=react" alt="react"></a>
   <a title="mui" href="https://mui.com"><img src="https://img.shields.io/badge/logo-mui-blue?logo=mui" alt="mui"></a>
   <a title="tailwindcss" href="https://tailwindcss.com"><img src="https://img.shields.io/badge/logo-tailwindcss-blue?logo=tailwindcss" alt="tailwindcss"></a>
