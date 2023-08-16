@@ -94,8 +94,10 @@ function Header() {
 
             </Box>
 
-            <ThemeSwitch />
-            <LocaleSwitch />
+            <Box sx={{ display: { xs: "none", sm: "flex" }}}>
+              <ThemeSwitch style={{ margin: '-6px -10px -1px 0px' }} />
+              <LocaleSwitch style={{ margin: '0px -10px 0px -10px' }} />
+            </Box>
           </Toolbar>
         </AppBar>
 
