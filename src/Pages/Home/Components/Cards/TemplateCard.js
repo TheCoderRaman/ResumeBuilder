@@ -34,15 +34,22 @@ function TemplateCard({
     return (
         <form className={selected && 'animate-pulse'} name={`form#selectTemplate:${data.name}`}>
             <div style={{ margin: '3vh 1vw', height: 'auto', width: 'auto', position: 'relative' }}>
-                <div>
+                <div style={{ height: '100%', position: 'relative' }}>
                     <img
+                        style={{
+                            width: '40vh',
+                            height: '65vh',
+                            display: 'block',
+                            maxWidth: '45vh',
+                            maxHeight: '65vh'
+                        }}
                         alt={t(data.name)}
                         src={data.thumbnail}
                         onMouseEnter={handleHover}
                         onMouseLeave={handleHoverExit}
                         className={!isHovered
-                            ? 'w-[100%] h-[45vh] border-[3px] border-solid border-black dark:border-white'
-                            : 'w-[100%] h-[45vh] border-[3px] border-dashed border-black dark:border-white hover:opacity-70'
+                            ? 'border-[3px] border-solid border-black dark:border-white'
+                            : 'border-[3px] border-dashed border-black dark:border-white hover:opacity-70'
                         }
                     />
 
