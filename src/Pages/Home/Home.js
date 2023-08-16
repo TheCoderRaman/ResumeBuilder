@@ -89,7 +89,7 @@ function Home() {
         <StyleIcon color="primary" fontSize="large" />
       </Divider>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto max-w-7xl mt-8 px-8">
+      <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-auto max-w-7xl mt-8 px-8">
         {Object.entries(templates.forms).map(([id,template],index) => {
           return (
             <TemplateCard
