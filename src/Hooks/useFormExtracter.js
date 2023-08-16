@@ -8,9 +8,18 @@ import { useStepForm } from './useStepForm';
 
 export function useFormExtracter(...args)
 {
+    const stepForm = useStepForm();
+
     const createFormExtracter = (...args) => {
         return new class FormExtracter
         {
+            /**
+             * Step form hook.
+             *
+             * @var Object stepForm
+             */
+            stepForm;
+
             /**
              * Target form for extraction.
              *
@@ -26,13 +35,6 @@ export function useFormExtracter(...args)
             extracted = {};
 
             /**
-             * Step form hook.
-             *
-             * @var Object stepForm
-             */
-            stepForm = useStepForm();
-
-            /**
              * Initialize form extracter class.
              *
              * @param String form
@@ -41,6 +43,7 @@ export function useFormExtracter(...args)
             constructor(form)
             {
                 this.form = form;
+                this.stepForm = stepForm;
             }
 
             /**
