@@ -27,3 +27,6 @@ yarn-error.log*
 /.vscode
 todo.md
 public/env.js
+
+# Local Netlify folder
+.netlify
