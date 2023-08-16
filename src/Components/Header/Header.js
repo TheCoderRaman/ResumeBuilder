@@ -56,11 +56,11 @@ function Header() {
               variant="h6"
               component="div"
               sx={{
+                top: "5px",
                 flexGrow: 1,
-                display: { sm: "block" },
                 fontSize: "25px",
                 position: "relative",
-                top: "5px",
+                display: { sm: "block" },
               }}>
               <div
                 onClick={() => {navigate(route('Home'))}}
@@ -84,7 +84,7 @@ function Header() {
                 return (
                   <NavLink
                      to={value?.path}
-                     className="nav-link"
+                     className="nav-link ml-[2vh] lg:ml-[5vh]"
                      key={`DesktopLink#${name}::${index}`}
                   >
                     {t(value?.name)}
