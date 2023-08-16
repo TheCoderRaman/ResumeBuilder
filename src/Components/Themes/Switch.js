@@ -5,7 +5,7 @@ import React, {
 import { SwitchStyled } from './Styles/SwitchStyled';
 import { ThemeContext } from './../../Providers/ThemeProvider';
 
-function Switch() {
+function Switch(props) {
     const themeContext = useContext(ThemeContext);
 
     const mode = useRef(
@@ -27,12 +27,13 @@ function Switch() {
 
     return (
         <button
+            {...props}
             type="button"
             onClick={handleSwitch}
             className="text-dark rounded-full-500"
         >
-            <SwitchStyled 
-                sx={{ m: 1 }} 
+            <SwitchStyled
+                sx={{ m: 1 }}
                 checked={mode.current}
             />
         </button>
