@@ -7,9 +7,9 @@
 }
 
 .MuiPaper-root.MuiAppBar-root {
-  position: sticky;
   top: 0;
   z-index: 10;
+  position: sticky;
 }
 
 .MuiContainer-root.MuiContainer-maxWidthXl {
@@ -24,9 +24,8 @@
 
 .nav-link {
   font-size: 17px;
-  text-decoration: none;
   font-weight: 500;
-  margin-right: 40px;
+  text-decoration: none;
 }
 
 .nav-link:hover {
