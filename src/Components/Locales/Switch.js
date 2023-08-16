@@ -18,7 +18,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import { TranslateIcon } from './../Icons/TranslateIcon';
 
-function Switch() {
+function Switch(props) {
   const { t } = useTranslation();
 
   const [open, setOpen] = React.useState(false);
@@ -42,7 +42,7 @@ function Switch() {
   };
 
   return (
-    <div>
+    <div {...props}>
         <Button onClick={handleClickOpen}>
             <TranslateIcon></TranslateIcon>
         </Button>
