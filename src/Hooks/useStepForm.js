@@ -258,7 +258,7 @@ export function useStepForm() {
                 return config.steps[stepId] ?? null;
         }
 
-        return config.steps[getId()] ?? null;
+        return config.steps[this.getStep()] ?? null;
     }
 
     /**
